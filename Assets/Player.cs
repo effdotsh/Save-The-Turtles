@@ -16,6 +16,7 @@ public class Player : MonoBehaviour
     public Rigidbody2D rb;
     public Text scoreText;
     public Text healthText;
+    public float speedPerPoint;
 
     private int score = 0;
     public int health;
@@ -70,12 +71,12 @@ public class Player : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-       Debug.Log("COLLIDE");
         if (other.gameObject.tag == "trash")
         {
             Destroy(other.gameObject);
             score++;
             setScore();
+            speed += speedPerPoint;
         }
     }
 
@@ -91,6 +92,12 @@ public class Player : MonoBehaviour
         setScore();
         if (health <= 0)
         {
+            if (score > PlayerPrefs.GetInt("highScore"))
+            {
+                PlayerPrefs.SetInt("highScore", score);
+            }
+            PlayerPrefs.SetInt("score", score);
+
             SceneManager.LoadScene("End Screen");
         }
     }

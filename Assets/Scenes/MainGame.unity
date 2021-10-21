@@ -156,8 +156,8 @@ MonoBehaviour:
   turtlePrefab: {fileID: 1329869268372971537, guid: c1f769dd5db10423fbd9cf6c8b24540f, type: 3}
   trashSpawnRate: 2
   turtleSpawnRate: 20
-  turtleIncrease: 1.1
-  trashIncrease: 1.1
+  turtleIncrease: 1.05
+  trashIncrease: 1.01
 --- !u!4 &364125616
 Transform:
   m_ObjectHideFlags: 0
@@ -425,6 +425,7 @@ MonoBehaviour:
   rb: {fileID: 587725583}
   scoreText: {fileID: 2025212608}
   healthText: {fileID: 1253626938}
+  speedPerPoint: 0.1
   health: 5
 --- !u!50 &587725583
 Rigidbody2D:
