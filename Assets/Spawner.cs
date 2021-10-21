@@ -11,6 +11,10 @@ public class Spawner : MonoBehaviour
     public float trashSpawnRate;
     public float turtleSpawnRate;
 
+    public float turtleIncrease;
+    public float trashIncrease;
+    
+
     private float trashLastSpawn = -50;
     private float turtleLastSpawn = -50;
 
@@ -27,6 +31,8 @@ public class Spawner : MonoBehaviour
             float[] coords = genCoords();
             Instantiate(trashPrefab, new Vector2(coords[0], coords[1]), Quaternion.identity);
             trashLastSpawn = Time.time;
+            trashSpawnRate /= trashIncrease;
+
         }
 
         if (Time.time - turtleLastSpawn > turtleSpawnRate)
@@ -34,7 +40,10 @@ public class Spawner : MonoBehaviour
             float[] coords = genCoords();
             Instantiate(turtlePrefab, new Vector2(coords[0], coords[1]), Quaternion.identity);
             turtleLastSpawn = Time.time;
+            turtleSpawnRate /= turtleIncrease;
+
         }
+
     }
 
     private float[] genCoords()
