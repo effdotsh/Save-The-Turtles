@@ -15,38 +15,50 @@ public class Trash : MonoBehaviour
 
     private float moveX;
     private float moveY;
+    private float xPos;
+    private float yPos;
 
     private float d2r = Mathf.PI / 180f;
+
     // Start is called before the first frame update
     void Start()
     {
         moveAngle = Random.value * 360 * d2r;
-        
+
         moveX = Mathf.Cos(moveAngle) * speed;
         moveY = Mathf.Sin(moveAngle) * speed;
-        print(moveX);
+        rb.velocity = new Vector2(moveX, moveY);
     }
 
     // Update is called once per frame
     void Update()
     {
-        float xPos = transform.position.x;
-        float yPos = transform.position.y;
+        xPos = transform.position.x;
+        yPos = transform.position.y;
 
-        
-        if (rb.position.x > 16 || rb.position.x < -16)
+
+        if (xPos > 16 || xPos < -16)
         {
-            moveX *= -1;
+            swapDir(-1, 1);
         }
-        if (rb.position.y > 10 || rb.position.y < -10)
+
+        if (yPos > 10 || yPos < -10)
         {
+            swapDir(1, -1);
             moveY *= -1;
         }
+    }
 
+    void swapDir(int changeX, int changeY)
+    {
         xPos = Mathf.Clamp(xPos, -16, 16);
         yPos = Mathf.Clamp(yPos, -10, 10);
 
         transform.position.Set(xPos, yPos, transform.position.z);
+
+
+        moveX = rb.velocity.x * changeX;
+        moveY = rb.velocity.y * changeY;
         
         rb.velocity = new Vector2(moveX, moveY);
     }
