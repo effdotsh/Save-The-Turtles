@@ -6,7 +6,7 @@ using UnityEditor.UIElements;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-public class Trash : MonoBehaviour
+public class Floater : MonoBehaviour
 {
     public Rigidbody2D rb;
     public Transform transform;
@@ -28,6 +28,7 @@ public class Trash : MonoBehaviour
         moveX = Mathf.Cos(moveAngle) * speed;
         moveY = Mathf.Sin(moveAngle) * speed;
         rb.velocity = new Vector2(moveX, moveY);
+        rb.rotation = Mathf.Atan2(moveY, moveX)/d2r;
     }
 
     // Update is called once per frame
@@ -37,7 +38,7 @@ public class Trash : MonoBehaviour
         yPos = transform.position.y;
 
 
-        if (xPos > 16 || xPos < -16)
+        if (xPos > 18 || xPos < -18)
         {
             swapDir(-1, 1);
         }

@@ -14,7 +14,11 @@ public class Player : MonoBehaviour
 
     public Rigidbody2D rb;
     public Text scoreText;
+    public Text healthText;
+
     private int score = 0;
+    public int health;
+
     private float angle = 0;
 
     private float d2r = Mathf.PI / 180;
@@ -26,7 +30,7 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        setScore(0);
+        setScore();
     }
 
     // Update is called once per frame
@@ -70,12 +74,20 @@ public class Player : MonoBehaviour
         {
             Destroy(other.gameObject);
             score++;
-            setScore(score);
+            setScore();
         }
     }
 
-    private void setScore(int score)
+    private void setScore()
     {
         scoreText.text = "Score: " + score;
+        healthText.text = "Health: " + health;
     }
+
+    public void takeHit()
+    {
+        health--;
+        setScore();
+    }
+    
 }

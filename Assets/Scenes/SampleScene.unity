@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 364125616}
   - component: {fileID: 364125615}
   m_Layer: 0
-  m_Name: TrashSpawner
+  m_Name: Spawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -153,7 +153,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   trashPrefab: {fileID: 183801977415063098, guid: 2040da8bf084d450eb2560f63be17e59, type: 3}
-  spawnRate: 1
+  turtlePrefab: {fileID: 1329869268372971537, guid: c1f769dd5db10423fbd9cf6c8b24540f, type: 3}
+  trashSpawnRate: 2
+  turtleSpawnRate: 20
 --- !u!4 &364125616
 Transform:
   m_ObjectHideFlags: 0
@@ -414,12 +416,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b076bafef78f243a297fcd0ef5649c40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
+  speed: 3
   turnSpeed: 0.4
   acceleration: 0.1
   decceleration: 0.01
   rb: {fileID: 587725583}
-  score: {fileID: 0}
+  scoreText: {fileID: 2025212608}
 --- !u!50 &587725583
 Rigidbody2D:
   serializedVersion: 4
@@ -537,7 +539,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Score: 0'
+  m_Text: 0
 --- !u!222 &2025212609
 CanvasRenderer:
   m_ObjectHideFlags: 0
