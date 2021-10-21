@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
@@ -12,7 +13,8 @@ public class Player : MonoBehaviour
     public float decceleration = 0.0001f;
 
     public Rigidbody2D rb;
-    public TextAsset score;
+    public Text scoreText;
+    private int score = 0;
     private float angle = 0;
 
     private float d2r = Mathf.PI / 180;
@@ -24,6 +26,7 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        setScore(0);
     }
 
     // Update is called once per frame
@@ -60,12 +63,19 @@ public class Player : MonoBehaviour
 
     }
 
-    private void OnCollisionEnter(Collision other)
+    private void OnCollisionEnter2D(Collision2D other)
     {
-        print(Time.time);
+       Debug.Log("COLLIDE");
         if (other.gameObject.tag == "trash")
         {
             Destroy(other.gameObject);
+            score++;
+            setScore(score);
         }
+    }
+
+    private void setScore(int score)
+    {
+        scoreText.text = "Score: " + score;
     }
 }
