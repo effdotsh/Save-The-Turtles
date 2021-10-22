@@ -1,15 +1,12 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.Timeline;
-using UnityEditor.UIElements;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
 public class Floater : MonoBehaviour
 {
     public Rigidbody2D rb;
-    public Transform transform;
     public float speed;
     private float moveAngle;
 
