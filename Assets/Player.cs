@@ -17,6 +17,8 @@ public class Player : MonoBehaviour
     public Text scoreText;
     public Text healthText;
     public float speedPerPoint;
+    public float turnPerPoint;
+
 
     private int score = 0;
     public int health;
@@ -26,8 +28,10 @@ public class Player : MonoBehaviour
     private float d2r = Mathf.PI / 180;
 
     private float moveX = 0;
-
     private float moveY = 0;
+
+    private float xPos;
+    private float yPos;
 
     // Start is called before the first frame update
     void Start()
@@ -36,7 +40,7 @@ public class Player : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         moveY -= decceleration * moveY / (Mathf.Abs(moveY) + 0.001f);
         moveX = 0;
@@ -59,14 +63,22 @@ public class Player : MonoBehaviour
         {
             moveY -= acceleration;
         }
-        
+
         angle -= moveX;
         rb.rotation = angle;
 
         moveY = Mathf.Clamp(moveY, -speed, speed);
-        rb.velocity = new Vector2(Mathf.Cos(angle * d2r) * moveY, Mathf.Sin(angle * d2r) *  moveY);
-        
+        rb.velocity = new Vector2(Mathf.Cos(angle * d2r) * moveY, Mathf.Sin(angle * d2r) * moveY);
 
+        Vector3 pos = transform.position;
+        xPos = pos.x;
+        yPos = pos.y;
+        if (Mathf.Abs(xPos) > 18 || Mathf.Abs(yPos) > 11)
+        {
+            yPos *= -1;
+            xPos *= -1;
+            transform.position = new Vector3(xPos, yPos, pos.z);
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D other)
@@ -77,6 +89,7 @@ public class Player : MonoBehaviour
             score++;
             setScore();
             speed += speedPerPoint;
+            turnSpeed += turnPerPoint;
         }
     }
 
@@ -96,10 +109,10 @@ public class Player : MonoBehaviour
             {
                 PlayerPrefs.SetInt("highScore", score);
             }
+
             PlayerPrefs.SetInt("score", score);
 
             SceneManager.LoadScene("End Screen");
         }
     }
-    
 }

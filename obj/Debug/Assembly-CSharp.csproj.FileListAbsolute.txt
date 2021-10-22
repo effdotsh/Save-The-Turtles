@@ -407,5 +407,3 @@
 /Users/human/reeeeeeeee/obj/Debug/Assembly-CSharp.csproj.CopyComplete
 /Users/human/reeeeeeeee/obj/Debug/Assembly-CSharp.dll
 /Users/human/reeeeeeeee/obj/Debug/Assembly-CSharp.pdb
-/Users/human/reeeeeeeee/Temp/Bin/Debug/UnityEngine.WebGLModule.dll
-/Users/human/reeeeeeeee/Temp/Bin/Debug/UnityEngine.WebGLModule.pdb

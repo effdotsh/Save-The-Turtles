@@ -31,33 +31,28 @@ public class Floater : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        xPos = transform.position.x;
-        yPos = transform.position.y;
-
-
-        if (xPos > 18 || xPos < -18)
+        Vector3 pos = transform.position;
+        xPos = pos.x;
+        yPos = pos.y;
+        if (Mathf.Abs(xPos) > 18 || Mathf.Abs(yPos) > 11)
         {
-            swapDir(-1, 1);
-        }
-
-        if (yPos > 10 || yPos < -10)
-        {
-            swapDir(1, -1);
-            moveY *= -1;
+            yPos *= -1;
+            xPos *= -1;
+            transform.position = new Vector3(xPos, yPos, pos.z);
         }
     }
 
-    void swapDir(int changeX, int changeY)
-    {
-        xPos = Mathf.Clamp(xPos, -16, 16);
-        yPos = Mathf.Clamp(yPos, -10, 10);
-
-        transform.position.Set(xPos, yPos, transform.position.z);
-
-
-        moveX = rb.velocity.x * changeX;
-        moveY = rb.velocity.y * changeY;
-        
-        rb.velocity = new Vector2(moveX, moveY);
-    }
+    // void swapDir(int changeX, int changeY)
+    // {
+    //     xPos = Mathf.Clamp(xPos, -16, 16);
+    //     yPos = Mathf.Clamp(yPos, -10, 10);
+    //
+    //     transform.position.Set(xPos, yPos, transform.position.z);
+    //
+    //
+    //     moveX = rb.velocity.x * changeX;
+    //     moveY = rb.velocity.y * changeY;
+    //     
+    //     rb.velocity = new Vector2(moveX, moveY);
+    // }
 }
