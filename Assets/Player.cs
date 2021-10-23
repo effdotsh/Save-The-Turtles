@@ -63,8 +63,10 @@ public class Player : MonoBehaviour
         {
             moveY -= acceleration;
         }
-
+        if (moveY < 0) moveX *= -1;
+        
         angle -= moveX;
+
         rb.rotation = angle;
 
         moveY = Mathf.Clamp(moveY, -speed, speed);
