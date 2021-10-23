@@ -34,25 +34,16 @@ public class Floater : MonoBehaviour
         Vector3 pos = transform.position;
         xPos = pos.x;
         yPos = pos.y;
-        if (Mathf.Abs(xPos) > 18 || Mathf.Abs(yPos) > 11)
+        if (Mathf.Abs(xPos) > 18 )
         {
-            yPos *= -1;
             xPos *= -1;
             transform.position = new Vector3(xPos, yPos, pos.z);
         }
+        if (Mathf.Abs(yPos) > 11)
+        {
+            yPos *= -1;
+            transform.position = new Vector3(xPos, yPos, pos.z);
+        }
     }
-
-    // void swapDir(int changeX, int changeY)
-    // {
-    //     xPos = Mathf.Clamp(xPos, -16, 16);
-    //     yPos = Mathf.Clamp(yPos, -10, 10);
-    //
-    //     transform.position.Set(xPos, yPos, transform.position.z);
-    //
-    //
-    //     moveX = rb.velocity.x * changeX;
-    //     moveY = rb.velocity.y * changeY;
-    //     
-    //     rb.velocity = new Vector2(moveX, moveY);
-    // }
+    
 }

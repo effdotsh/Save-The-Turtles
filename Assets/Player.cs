@@ -73,10 +73,14 @@ public class Player : MonoBehaviour
         Vector3 pos = transform.position;
         xPos = pos.x;
         yPos = pos.y;
-        if (Mathf.Abs(xPos) > 18 || Mathf.Abs(yPos) > 11)
+        if (Mathf.Abs(xPos) > 18 )
+        {
+            xPos *= -1;
+            transform.position = new Vector3(xPos, yPos, pos.z);
+        }
+        if (Mathf.Abs(yPos) > 11)
         {
             yPos *= -1;
-            xPos *= -1;
             transform.position = new Vector3(xPos, yPos, pos.z);
         }
     }
