@@ -1119,3 +1119,776 @@ Domain Reload Profiling:
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (44ms)
 Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2088 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 240.3 MB.
+System memory in use after: 240.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2633.
+Total: 2.266625 ms (FindLiveObjects: 0.118875 ms CreateObjectMapping: 0.039458 ms MarkObjects: 2.091125 ms  DeleteObjects: 0.016334 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 717.727932 seconds.
+  path: Assets/Sprites/can_red.png
+  artifactKey: Guid(51b93b141a74f4d05b66cf4fdd9b4712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/can_red.png using Guid(51b93b141a74f4d05b66cf4fdd9b4712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4f8dd346d0147e1d3211df1ad829716') in 0.205964 seconds 
+  Import took 0.218470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.847697 seconds.
+  path: Assets/Trash.prefab
+  artifactKey: Guid(2040da8bf084d450eb2560f63be17e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash.prefab using Guid(2040da8bf084d450eb2560f63be17e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53c313c507bf6dcbd0c52504560a279f') in 0.076724 seconds 
+  Import took 0.079553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Turtle.prefab
+  artifactKey: Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turtle.prefab using Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8db622c66b9570e3d2b35ed149f84837') in 0.017927 seconds 
+  Import took 0.020393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.826290 seconds.
+  path: Assets/Trash.prefab
+  artifactKey: Guid(2040da8bf084d450eb2560f63be17e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash.prefab using Guid(2040da8bf084d450eb2560f63be17e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd669437b14a30492c900b1195879e186') in 0.011364 seconds 
+  Import took 0.014791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Turtle.prefab
+  artifactKey: Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turtle.prefab using Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb4ba7bbc065e394742ebc72e788d0fe') in 0.010986 seconds 
+  Import took 0.014374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.063083 seconds.
+  path: Assets/Trash.prefab
+  artifactKey: Guid(2040da8bf084d450eb2560f63be17e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash.prefab using Guid(2040da8bf084d450eb2560f63be17e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '079e61902f0ef21d340188b7ce4c5587') in 0.009720 seconds 
+  Import took 0.013217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Turtle.prefab
+  artifactKey: Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turtle.prefab using Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cfd794767214a04cdcb7f5feed9e271') in 0.011033 seconds 
+  Import took 0.013833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.139788 seconds.
+  path: Assets/Trash.prefab
+  artifactKey: Guid(2040da8bf084d450eb2560f63be17e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash.prefab using Guid(2040da8bf084d450eb2560f63be17e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5114eb90db72cd5e105a2df5752f29c7') in 0.012751 seconds 
+  Import took 0.017776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/Turtle.prefab
+  artifactKey: Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turtle.prefab using Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b040731c7df3605ba9fb00ab3f9ec806') in 0.009706 seconds 
+  Import took 0.013100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.628268 seconds.
+  path: Assets/Trash.prefab
+  artifactKey: Guid(2040da8bf084d450eb2560f63be17e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash.prefab using Guid(2040da8bf084d450eb2560f63be17e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e983c38ee2abf967c90753b516f11f7f') in 0.012807 seconds 
+  Import took 0.016982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000433 seconds.
+  path: Assets/Turtle.prefab
+  artifactKey: Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turtle.prefab using Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b8913d6e14850e696415e07575ae713') in 0.009863 seconds 
+  Import took 0.013212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.297491 seconds.
+  path: Assets/Trash.prefab
+  artifactKey: Guid(2040da8bf084d450eb2560f63be17e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash.prefab using Guid(2040da8bf084d450eb2560f63be17e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ecfe2373f1b2804df86e8afa6f18864') in 0.011653 seconds 
+  Import took 0.015044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Turtle.prefab
+  artifactKey: Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turtle.prefab using Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74e5f677131394a0307252b4462a4d8a') in 0.009672 seconds 
+  Import took 0.013050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.311622 seconds.
+  path: Assets/Trash.prefab
+  artifactKey: Guid(2040da8bf084d450eb2560f63be17e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash.prefab using Guid(2040da8bf084d450eb2560f63be17e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29a258332e35e33e1a42977ffb66d707') in 0.008251 seconds 
+  Import took 0.011057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000499 seconds.
+  path: Assets/Turtle.prefab
+  artifactKey: Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turtle.prefab using Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '946084bfc746f14312bd2bd745cbdab3') in 0.007996 seconds 
+  Import took 0.010646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.922111 seconds.
+  path: Assets/Trash.prefab
+  artifactKey: Guid(2040da8bf084d450eb2560f63be17e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash.prefab using Guid(2040da8bf084d450eb2560f63be17e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61cb1e66352c6e6228dc3d993069c5bc') in 0.009452 seconds 
+  Import took 0.012813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Turtle.prefab
+  artifactKey: Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turtle.prefab using Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a64d49d2acef5da80c3d06527604f6c') in 0.008444 seconds 
+  Import took 0.011307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.144884 seconds.
+  path: Assets/Trash.prefab
+  artifactKey: Guid(2040da8bf084d450eb2560f63be17e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash.prefab using Guid(2040da8bf084d450eb2560f63be17e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '786d0d707f9f0ceb58ec919c2afb21ba') in 0.008176 seconds 
+  Import took 0.010938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Turtle.prefab
+  artifactKey: Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turtle.prefab using Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '524598a16c36ad2acdaace51854f7b7b') in 0.007803 seconds 
+  Import took 0.010484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.280217 seconds.
+  path: Assets/Trash.prefab
+  artifactKey: Guid(2040da8bf084d450eb2560f63be17e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash.prefab using Guid(2040da8bf084d450eb2560f63be17e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f9875807f56601ae913e42364fa4220') in 0.010556 seconds 
+  Import took 0.014106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Turtle.prefab
+  artifactKey: Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turtle.prefab using Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45edfdce4dc25f86ed31c4d9d594ad0') in 0.008948 seconds 
+  Import took 0.011748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.570416 seconds.
+  path: Assets/Trash.prefab
+  artifactKey: Guid(2040da8bf084d450eb2560f63be17e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash.prefab using Guid(2040da8bf084d450eb2560f63be17e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db9afebc39e679e109d195c912019c49') in 0.010277 seconds 
+  Import took 0.013578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Turtle.prefab
+  artifactKey: Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turtle.prefab using Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45000b708687f765533caa49a9d69ee0') in 0.010195 seconds 
+  Import took 0.013360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.276808 seconds.
+  path: Assets/Trash.prefab
+  artifactKey: Guid(2040da8bf084d450eb2560f63be17e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash.prefab using Guid(2040da8bf084d450eb2560f63be17e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c6218ba0de59c04d75dd628ed1f6200') in 0.010584 seconds 
+  Import took 0.014267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Turtle.prefab
+  artifactKey: Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turtle.prefab using Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9781be34f747bda7893cf6fb087849b8') in 0.008598 seconds 
+  Import took 0.011368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.679653 seconds.
+  path: Assets/Trash.prefab
+  artifactKey: Guid(2040da8bf084d450eb2560f63be17e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash.prefab using Guid(2040da8bf084d450eb2560f63be17e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '108dd48e82ce857b65b1218e4edf6a51') in 0.009900 seconds 
+  Import took 0.013519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Turtle.prefab
+  artifactKey: Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turtle.prefab using Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5475754322c932df88f80dd39ef9b172') in 0.009101 seconds 
+  Import took 0.012115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.023786 seconds.
+  path: Assets/Trash.prefab
+  artifactKey: Guid(2040da8bf084d450eb2560f63be17e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash.prefab using Guid(2040da8bf084d450eb2560f63be17e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8a3a95b9bad7c51ad2430427e865e8f') in 0.010037 seconds 
+  Import took 0.013410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Turtle.prefab
+  artifactKey: Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turtle.prefab using Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67751cbd8953932ab22ffd68fb6e961f') in 0.011334 seconds 
+  Import took 0.014300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.056324 seconds.
+  path: Assets/Trash.prefab
+  artifactKey: Guid(2040da8bf084d450eb2560f63be17e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash.prefab using Guid(2040da8bf084d450eb2560f63be17e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbab05631cb0525d32f02fd7eb33aca8') in 0.011169 seconds 
+  Import took 0.015555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Turtle.prefab
+  artifactKey: Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turtle.prefab using Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8e7cda6d6d8b4ea14f5dbb2a56f5f93') in 0.009899 seconds 
+  Import took 0.013962 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004309 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-10-23 01:08:18.657 Unity[51696:2111727] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000017a5c00 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.694 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2695ms)
+		BeginReloadAssembly (281ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (49ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (103ms)
+		EndReloadAssembly (2294ms)
+			LoadAssemblies (259ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (351ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (1341ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (232ms)
+				ProcessInitializeOnLoadAttributes (1059ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (49ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2088 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 240.5 MB.
+System memory in use after: 240.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2637.
+Total: 2.261750 ms (FindLiveObjects: 0.142000 ms CreateObjectMapping: 0.041958 ms MarkObjects: 2.057625 ms  DeleteObjects: 0.019125 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 52.452387 seconds.
+  path: Assets/Turtle.prefab
+  artifactKey: Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turtle.prefab using Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f699e66e41efb53fd94b1957611f1baa') in 0.152448 seconds 
+  Import took 0.155160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.554725 seconds.
+  path: Assets/Trash.prefab
+  artifactKey: Guid(2040da8bf084d450eb2560f63be17e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash.prefab using Guid(2040da8bf084d450eb2560f63be17e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c3ab16fbf5a639cde68094db3df4330') in 0.014684 seconds 
+  Import took 0.017388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Turtle.prefab
+  artifactKey: Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turtle.prefab using Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45e73e34103304656ec3685a72dae29d') in 0.008234 seconds 
+  Import took 0.010781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.267515 seconds.
+  path: Assets/Trash.prefab
+  artifactKey: Guid(2040da8bf084d450eb2560f63be17e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash.prefab using Guid(2040da8bf084d450eb2560f63be17e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b08bde4e557ad07ce8695552d6c9b2c') in 0.007882 seconds 
+  Import took 0.010808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Turtle.prefab
+  artifactKey: Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turtle.prefab using Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c1703f5c62bb78d89f049deef105c9f') in 0.007767 seconds 
+  Import took 0.010200 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002902 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-10-23 01:09:25.560 Unity[51696:2111727] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000017e0f50 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.376 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2377ms)
+		BeginReloadAssembly (221ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (42ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (70ms)
+		EndReloadAssembly (2058ms)
+			LoadAssemblies (180ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (315ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (1217ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (227ms)
+				ProcessInitializeOnLoadAttributes (945ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (48ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2088 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 240.7 MB.
+System memory in use after: 240.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2641.
+Total: 2.383833 ms (FindLiveObjects: 0.144000 ms CreateObjectMapping: 0.042041 ms MarkObjects: 2.181500 ms  DeleteObjects: 0.015375 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003577 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-10-23 01:10:01.583 Unity[51696:2111727] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000017f2140 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.467 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2468ms)
+		BeginReloadAssembly (233ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (41ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (75ms)
+		EndReloadAssembly (2140ms)
+			LoadAssemblies (189ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (313ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (1299ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (228ms)
+				ProcessInitializeOnLoadAttributes (1025ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (49ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2088 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 240.9 MB.
+System memory in use after: 241.0 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2644.
+Total: 2.308042 ms (FindLiveObjects: 0.131959 ms CreateObjectMapping: 0.042250 ms MarkObjects: 2.116833 ms  DeleteObjects: 0.016083 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002501 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-10-23 01:10:53.703 Unity[51696:2111727] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000017105b0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.514 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2515ms)
+		BeginReloadAssembly (253ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (40ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (86ms)
+		EndReloadAssembly (2159ms)
+			LoadAssemblies (224ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (320ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (1278ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (280ms)
+				ProcessInitializeOnLoadAttributes (953ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (42ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2088 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 241.1 MB.
+System memory in use after: 241.2 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2647.
+Total: 2.510667 ms (FindLiveObjects: 0.142542 ms CreateObjectMapping: 0.041583 ms MarkObjects: 2.309083 ms  DeleteObjects: 0.016208 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 133.862127 seconds.
+  path: Assets/Turtle.prefab
+  artifactKey: Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turtle.prefab using Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71f51a2edc8f43ae12a765596055e42a') in 0.175832 seconds 
+  Import took 0.179219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.489717 seconds.
+  path: Assets/Turtle.prefab
+  artifactKey: Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turtle.prefab using Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1beed303e9f3ab954de5f49dd4c0f4a9') in 0.017202 seconds 
+  Import took 0.020831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.225796 seconds.
+  path: Assets/Turtle.prefab
+  artifactKey: Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turtle.prefab using Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f49e4c868a0ff419f9617413f127d2d') in 0.011162 seconds 
+  Import took 0.014791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.023853 seconds.
+  path: Assets/Turtle.prefab
+  artifactKey: Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turtle.prefab using Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7190057ad1fccaba7c7fe47c1d8fcfe') in 0.010396 seconds 
+  Import took 0.013727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.734552 seconds.
+  path: Assets/Turtle.prefab
+  artifactKey: Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turtle.prefab using Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6817400bdef2ee79d2f254d1b8b29cc') in 0.011644 seconds 
+  Import took 0.014715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.881367 seconds.
+  path: Assets/Turtle.prefab
+  artifactKey: Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turtle.prefab using Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d59b2dadc6723f65b3d18182f18884e') in 0.010906 seconds 
+  Import took 0.014191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.059177 seconds.
+  path: Assets/Turtle.prefab
+  artifactKey: Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turtle.prefab using Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc57b1f8835f99de093ba11437e09c2a') in 0.010289 seconds 
+  Import took 0.013316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.281089 seconds.
+  path: Assets/Turtle.prefab
+  artifactKey: Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turtle.prefab using Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b85e753acc9967bb1a215cae4efd0720') in 0.011687 seconds 
+  Import took 0.015591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.036705 seconds.
+  path: Assets/Turtle.prefab
+  artifactKey: Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turtle.prefab using Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30f0fe240a0c112faf71b3cb718266de') in 0.009384 seconds 
+  Import took 0.012275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.674008 seconds.
+  path: Assets/Turtle.prefab
+  artifactKey: Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turtle.prefab using Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be4dff8ea7f3c7c089d70e42614f94e8') in 0.009236 seconds 
+  Import took 0.012115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.052172 seconds.
+  path: Assets/Turtle.prefab
+  artifactKey: Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turtle.prefab using Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d2c155d878847c12d54d9aec21bb2e8') in 0.011345 seconds 
+  Import took 0.014298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.147254 seconds.
+  path: Assets/Turtle.prefab
+  artifactKey: Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turtle.prefab using Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f76dcd06632a44a843deaad8f2651a8d') in 0.010085 seconds 
+  Import took 0.013472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.360565 seconds.
+  path: Assets/Turtle.prefab
+  artifactKey: Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turtle.prefab using Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '763cb8bf595df828668845a4b70e8591') in 0.067175 seconds 
+  Import took 0.069945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.595369 seconds.
+  path: Assets/Turtle.prefab
+  artifactKey: Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turtle.prefab using Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24646a06ed111e60827aab8eee81a5b5') in 0.022435 seconds 
+  Import took 0.025243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.825233 seconds.
+  path: Assets/Turtle.prefab
+  artifactKey: Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turtle.prefab using Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b83028a7b00ad8de763b48d1b0c542d') in 0.039784 seconds 
+  Import took 0.042629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.393426 seconds.
+  path: Assets/Turtle.prefab
+  artifactKey: Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turtle.prefab using Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '000082acb1b429362270de7c4d981d45') in 0.009767 seconds 
+  Import took 0.012757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.828596 seconds.
+  path: Assets/Turtle.prefab
+  artifactKey: Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turtle.prefab using Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '088fbdcc62bae4ddf93a85f70f298866') in 0.072338 seconds 
+  Import took 0.075122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.147415 seconds.
+  path: Assets/Turtle.prefab
+  artifactKey: Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turtle.prefab using Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3356038ba1bd65fed02c83cf34b23ac5') in 0.049288 seconds 
+  Import took 0.051970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.560358 seconds.
+  path: Assets/Turtle.prefab
+  artifactKey: Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turtle.prefab using Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a5d7116953c58b00eb10b6242157408') in 0.011097 seconds 
+  Import took 0.013972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.014608 seconds.
+  path: Assets/Turtle.prefab
+  artifactKey: Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turtle.prefab using Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22c79b3d3ac053ec34ae86876b902e59') in 0.010112 seconds 
+  Import took 0.013121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.629290 seconds.
+  path: Assets/Turtle.prefab
+  artifactKey: Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turtle.prefab using Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feca370d2bd177dbc67b2a94db67f658') in 0.014110 seconds 
+  Import took 0.016875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.436386 seconds.
+  path: Assets/Turtle.prefab
+  artifactKey: Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turtle.prefab using Guid(c1f769dd5db10423fbd9cf6c8b24540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a55cde66ef86d1abe3b783dc838436e1') in 0.030737 seconds 
+  Import took 0.033780 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004601 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-10-23 01:13:20.941 Unity[51696:2111727] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001711180 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.477 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2478ms)
+		BeginReloadAssembly (233ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (44ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (83ms)
+		EndReloadAssembly (2149ms)
+			LoadAssemblies (197ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (317ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (1240ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (218ms)
+				ProcessInitializeOnLoadAttributes (979ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (54ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2088 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 242.0 MB.
+System memory in use after: 242.1 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2656.
+Total: 2.328334 ms (FindLiveObjects: 0.154458 ms CreateObjectMapping: 0.041917 ms MarkObjects: 2.077375 ms  DeleteObjects: 0.053708 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
