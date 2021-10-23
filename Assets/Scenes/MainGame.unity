@@ -419,13 +419,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
-  turnSpeed: 0.4
+  turnSpeed: 1
   acceleration: 0.1
   decceleration: 0.01
   rb: {fileID: 587725583}
   scoreText: {fileID: 2025212608}
   healthText: {fileID: 1253626938}
-  speedPerPoint: 0.1
+  speedPerPoint: 0.2
+  turnPerPoint: 0.03
   health: 5
 --- !u!50 &587725583
 Rigidbody2D:
