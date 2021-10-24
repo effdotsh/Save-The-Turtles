@@ -641,7 +641,10 @@ PlayerSettings:
   XboxOneOverrideIdentityName: 
   XboxOneOverrideIdentityPublisher: 
   vrEditorSettings: {}
-  cloudServicesEnabled: {}
+  cloudServicesEnabled:
+    Analytics: 0
+    Build: 1
+    Game Performance: 0
   luminIcon:
     m_Name: 
     m_ModelFolderPath: 
