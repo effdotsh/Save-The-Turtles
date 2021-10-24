@@ -77,12 +77,12 @@ public class Player : MonoBehaviour
         yPos = pos.y;
         if (Mathf.Abs(xPos) > 18 )
         {
-            xPos *= -1;
+            xPos = -16 * posneg(xPos);
             transform.position = new Vector3(xPos, yPos, pos.z);
         }
         if (Mathf.Abs(yPos) > 11)
         {
-            yPos *= -1;
+            yPos = -11 * posneg(yPos);
             transform.position = new Vector3(xPos, yPos, pos.z);
         }
     }
@@ -120,5 +120,12 @@ public class Player : MonoBehaviour
 
             SceneManager.LoadScene("End Screen");
         }
+    }
+    
+    private int posneg(float num)
+    {
+        if (num > 0) return 1;
+        if (num < 0) return -1;
+        return 0;
     }
 }

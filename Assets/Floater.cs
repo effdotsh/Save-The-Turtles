@@ -25,7 +25,7 @@ public class Floater : MonoBehaviour
         moveX = Mathf.Cos(moveAngle) * speed;
         moveY = Mathf.Sin(moveAngle) * speed;
         rb.velocity = new Vector2(moveX, moveY);
-        rb.rotation = Mathf.Atan2(moveY, moveX)/d2r;
+        rb.rotation = Mathf.Atan2(moveY, moveX) / d2r;
     }
 
     // Update is called once per frame
@@ -34,16 +34,23 @@ public class Floater : MonoBehaviour
         Vector3 pos = transform.position;
         xPos = pos.x;
         yPos = pos.y;
-        if (Mathf.Abs(xPos) > 18 )
+        if (Mathf.Abs(xPos) > 18)
         {
-            xPos *= -1;
+            xPos = -16 * posneg(xPos);
             transform.position = new Vector3(xPos, yPos, pos.z);
         }
+
         if (Mathf.Abs(yPos) > 11)
         {
-            yPos *= -1;
+            yPos = -11 * posneg(yPos);
             transform.position = new Vector3(xPos, yPos, pos.z);
         }
     }
-    
+
+    private int posneg(float num)
+    {
+        if (num > 0) return 1;
+        if (num < 0) return -1;
+        return 0;
+    }
 }
