@@ -27,4 +27,8 @@ public class EndScreen : MonoBehaviour
     {
         SceneManager.LoadScene("MainGame");
     }
+    public void Secret()
+    {
+        SceneManager.LoadScene("Pinball");
+    }
 }
