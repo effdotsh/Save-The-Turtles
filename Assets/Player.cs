@@ -44,25 +44,27 @@ public class Player : MonoBehaviour
     {
         moveY -= decceleration * moveY / (Mathf.Abs(moveY) + 0.001f);
         moveX = 0;
-        if (Input.GetKey(KeyCode.LeftArrow))
-        {
-            moveX -= turnSpeed;
-        }
+        // if (Input.GetKey(KeyCode.LeftArrow)) 
+        // {
+        //     moveX -= turnSpeed;
+        // }
+        //
+        // if (Input.GetKey(KeyCode.RightArrow))
+        // {
+        //     moveX += turnSpeed;
+        // }
+        moveX = Input.GetAxis("Horizontal") * turnSpeed;
 
-        if (Input.GetKey(KeyCode.RightArrow))
-        {
-            moveX += turnSpeed;
-        }
-
-        if (Input.GetKey(KeyCode.UpArrow))
-        {
-            moveY += acceleration;
-        }
-
-        if (Input.GetKey(KeyCode.DownArrow))
-        {
-            moveY -= acceleration;
-        }
+        moveY += Input.GetAxis("Vertical") * acceleration;
+        // if (Input.GetKey(KeyCode.UpArrow))
+        // {
+        //     moveY += acceleration;
+        // }
+        //
+        // if (Input.GetKey(KeyCode.DownArrow))
+        // {
+        //     moveY -= acceleration;
+        // }
         if (moveY < 0) moveX *= -1;
         
         angle -= moveX;

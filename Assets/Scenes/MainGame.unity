@@ -419,8 +419,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b076bafef78f243a297fcd0ef5649c40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
-  turnSpeed: 1
+  speed: 5
+  turnSpeed: 1.1
   acceleration: 0.1
   decceleration: 0.01
   rb: {fileID: 587725583}
